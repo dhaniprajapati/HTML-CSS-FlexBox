@@ -1,0 +1,11 @@
+.cards{
+    display: flex;
+    align-items: flex-start;
+    background: lightblue;
+}
+.cards img {
+    margin: 10px;
+    border: 3px solid #ffffff;
+    box-shadow: 3px 4px 10px 0px rgba(10, 4, 4, 0.7);
+    max-width: 22vw
+}

@@ -1,0 +1,20 @@
+.media{
+    display: flex;
+    align-items: flex-start;
+    background: #ddc584;
+    padding: 30px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    max-width: 100%;
+}
+.media-object {
+    max-width:170px;
+    margin-right:32px;
+}
+.media-heading {
+    font: size 50px;
+}
+.media-body {
+    font-size: 16px;
+    color: #333;
+}
