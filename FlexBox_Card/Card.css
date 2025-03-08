@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    align-items: centre;
+    flex-direction:column;
+    box-shadow: 2px 2px 6px 1px rgba(0,0,0,0.3);
+    border: 8px solid #ffffff;
+    margin: 10px;
+    width:32%;
+}
+.cards {
+    flex: 0 0 100px;
+    display: flex;
+    flex-direction:row;
+    align-items:centre;
+}
+.card img {
+    max-width: 100%;
+}
+.card .text {
+    padding: 0 20px 20px;
+}
+.card .text> button {
+    background: skyblue;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
